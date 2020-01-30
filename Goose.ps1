@@ -1,5 +1,5 @@
 ﻿$zipDownload = "https://docs.google.com/uc?export=download&id=1N5X3SEnACFLwj7eyfSgSV6t26I8VCBpX"
-$tempPath = "c:\temp\Goose"
+$tempPath = "c:\temp\Goose" 
 $temp = "$tempPath\Goose.zip"
 New-Item $tempPath -ItemType Directory -Force
 Invoke-WebRequest -Uri $zipDownload -OutFile $temp
